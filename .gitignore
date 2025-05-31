@@ -44,4 +44,7 @@ yarn-error.log*
 backend/fake_news.db
 backend/bert_fake_news_model.pkl
 backend/True.csv
-backend/Fake.csv 
+backend/Fake.csv
+
+# Custom
+csvFormat.txt
