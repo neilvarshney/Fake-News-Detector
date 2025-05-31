@@ -18,8 +18,8 @@ A machine learning-powered web application that helps users identify potentially
 ### Register Page
 ![Analysis Page](docs/images/analysis.png)
 
-### History Page
-![History Page](docs/images/history.png)
+### Register Page
+![Register Page](docs/images/register.png)
 
 ## Tech Stack
 
