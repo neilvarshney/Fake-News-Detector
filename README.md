@@ -10,6 +10,17 @@ A machine learning-powered web application that helps users identify potentially
 - 🎯 Confidence Scores: Get probability scores for each prediction
 - 📱 Responsive Design: Works seamlessly on both desktop and mobile devices
 
+## Screenshots
+
+### Login Page
+![Login Page](docs/images/login.png)
+
+### Register Page
+![Analysis Page](docs/images/analysis.png)
+
+### History Page
+![History Page](docs/images/history.png)
+
 ## Tech Stack
 
 ### Frontend
