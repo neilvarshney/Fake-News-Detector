@@ -1,6 +1,6 @@
 # Fake News Detector
 
-A machine learning-powered web application that helps users identify potentially fake news articles using BERT (Bidirectional Encoder Representations from Transformers) and Logistic Regression.
+A machine learning-powered web application that helps users identify potentially fake news articles using BERT (Bidirectional Encoder Representations from Transformers) and Logistic Regression. 
 
 ## Features
 
@@ -113,10 +113,31 @@ The application will be available at:
 
 ## Model Training
 
-The model is trained on the Kaggle Fake and Real News Dataset. The training process:
+The model is trained on the Kaggle Fake and Real News Dataset, which contains:
+- True news articles from Reuters (labeled as 1)
+- Fake news articles from various unreliable sources (labeled as 0)
+
+Dataset Characteristics:
+- Time Period: Articles from 2016-2017
+- Article Types: Political news and current events
+- Source Distribution:
+  - True news: Reuters articles
+  - Fake news: Various unreliable news websites
+- Average article length: 500-1000 words
+- Balanced dataset with equal number of true and fake articles
+
+The training process:
 1. Uses BERT to generate embeddings for news articles
 2. Trains a Logistic Regression classifier on these embeddings
 3. Saves the trained model for future use
+
+The dataset is preprocessed by:
+- Removing URLs and special characters
+- Converting text to lowercase
+- Truncating articles to 256 tokens for BERT processing
+- Splitting into 80% training and 20% testing sets
+
+Note: The model is specifically trained on political news and current events from 2016-2017. While it can analyze other types of news, its accuracy may vary for different topics or time periods.
 
 ## Security Features
 
