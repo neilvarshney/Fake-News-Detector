@@ -47,12 +47,19 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-3. Train the model:
+3. Download the dataset:
+   - Go to [Kaggle Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
+   - Download the dataset
+   - Extract the following files to the `backend` directory:
+     - `True.csv`
+     - `Fake.csv`
+
+4. Train the model:
 ```bash
 python model.py
 ```
 
-4. Set up the frontend:
+5. Set up the frontend:
 ```bash
 cd ../frontend
 npm install
@@ -88,7 +95,7 @@ The application will be available at:
 ## Usage
 
 1. Register a new account or login with existing credentials
-2. Paste a news article text into the analysis section
+2. Paste a short  news article text into the analysis section
 3. Click "Check Authenticity" to get the prediction
 4. View your analysis history in the right panel
 5. Click on any history item to view full details

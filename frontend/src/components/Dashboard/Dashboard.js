@@ -245,7 +245,7 @@ const Dashboard = () => {
                                     <span className="confidence">
                                         {(item.confidence * 100).toFixed(1)}%
                                     </span>
-                                    <span className="timestamp">{item.timestamp}</span>
+                                    <span className="timestamp">{item.timestamp + " UTC"}</span>
                                     <button 
                                         className="delete-button"
                                         onClick={(e) => deleteAnalysis(item.id, e)}

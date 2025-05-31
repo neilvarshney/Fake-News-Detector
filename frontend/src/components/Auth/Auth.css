@@ -70,19 +70,16 @@
 }
 
 .form-group {
-    font-family: Poppins;
     margin-bottom: 1rem;
 }
 
 .form-group label {
-    font-family: Poppins;
     display: block;
     margin-bottom: 0.5rem;
     color: #666;
 }
 
 .form-group input {
-    font-family: Poppins;
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #ddd;
