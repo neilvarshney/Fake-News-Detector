@@ -15,7 +15,7 @@ A machine learning-powered web application that helps users identify potentially
 ### Login Page
 ![Login Page](docs/images/login.png)
 
-### Register Page
+### Analysis Page
 ![Analysis Page](docs/images/analysis.png)
 
 ### Register Page
