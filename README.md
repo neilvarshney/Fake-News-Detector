@@ -4,11 +4,11 @@ A machine learning-powered web application that helps users identify potentially
 
 ## Features
 
-- 🤖 Machine Learning Model: Uses BERT embeddings and Logistic Regression for accurate fake news detection
-- 🔐 User Authentication: Secure login and registration system with password hashing
-- 📊 Analysis History: Track and review your past news analyses
-- 🎯 Confidence Scores: Get probability scores for each prediction
-- 📱 Responsive Design: Works seamlessly on both desktop and mobile devices
+- Machine Learning Model: Uses BERT embeddings and Logistic Regression for accurate fake news detection
+- User Authentication: Secure login and registration system with password hashing
+- Analysis History: Track and review your past news analyses
+- Confidence Scores: Get probability scores for each prediction
+- Responsive Design: Works seamlessly on both desktop and mobile devices
 
 ## Screenshots
 
